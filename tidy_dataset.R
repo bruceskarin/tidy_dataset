@@ -42,5 +42,5 @@ tidy_dataset <- function(){
         #summarize data
         summaryData <- ddply(selectData, .(Subject_ID, Activity), colwise(mean))
         
-        write.csv(summaryData, "tidy_dataset.csv")
+        write.table(summaryData, "tidy_dataset.txt", row.names = F)
 }
