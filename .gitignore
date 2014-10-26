@@ -1,3 +1,6 @@
 test/
 train/
-*.txt
+README.txt
+activity_labels.txt
+features.txt
+features_info.txt
