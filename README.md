@@ -3,7 +3,7 @@ Tidy Dataset
 
 This repository is for the course project for Coursera Getting and Cleaning Data.
 
-The file tidy_dataset.R is the only R script needed to take the raw files: `features.txt, train/subject_train.txt, test/subject_test.txt, train/X_train.txt, train/y_train.txt, test/X_test.txt, test/y_test.txt`, and `activity_labels.txt`, which were provided online [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The file `tidy_dataset.R` is the only R script needed to take the raw files: `features.txt, train/subject_train.txt, test/subject_test.txt, train/X_train.txt, train/y_train.txt, test/X_test.txt, test/y_test.txt`, and `activity_labels.txt`, which were provided online [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 After downloading the corresponding files and setting the working directory, running the function `tidy_dataset()` will pull together the data and labels from each file to produce a single merged dataset of all the variables that report a mean or standard deviation. This dataset is then used to produce a summary file called `tidy_dataset.csv`, which provides the average value for all variables grouped by each subject and each activity in the study.
 
